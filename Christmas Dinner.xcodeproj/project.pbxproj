@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3313553621E672C400E0BE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313553521E672C400E0BE57 /* AppDelegate.swift */; };
+		3313553821E672C400E0BE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313553721E672C400E0BE57 /* ViewController.swift */; };
+		3313553B21E672C400E0BE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3313553921E672C400E0BE57 /* Main.storyboard */; };
+		3313553D21E672C600E0BE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3313553C21E672C600E0BE57 /* Assets.xcassets */; };
+		3313554021E672C600E0BE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3313553E21E672C600E0BE57 /* LaunchScreen.storyboard */; };
+		3313554B21E672C600E0BE57 /* Christmas_DinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313554A21E672C600E0BE57 /* Christmas_DinnerTests.swift */; };
+		3313555621E672C700E0BE57 /* Christmas_DinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313555521E672C700E0BE57 /* Christmas_DinnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3313554721E672C600E0BE57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3313552A21E672C400E0BE57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3313553121E672C400E0BE57;
+			remoteInfo = "Christmas Dinner";
+		};
+		3313555221E672C700E0BE57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3313552A21E672C400E0BE57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3313553121E672C400E0BE57;
+			remoteInfo = "Christmas Dinner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3313553221E672C400E0BE57 /* Christmas Dinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Dinner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3313553521E672C400E0BE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3313553721E672C400E0BE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3313553A21E672C400E0BE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3313553C21E672C600E0BE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3313553F21E672C600E0BE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3313554121E672C600E0BE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3313554621E672C600E0BE57 /* Christmas DinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas DinnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3313554A21E672C600E0BE57 /* Christmas_DinnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_DinnerTests.swift; sourceTree = "<group>"; };
+		3313554C21E672C700E0BE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3313555121E672C700E0BE57 /* Christmas DinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas DinnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3313555521E672C700E0BE57 /* Christmas_DinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_DinnerUITests.swift; sourceTree = "<group>"; };
+		3313555721E672C700E0BE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3313552F21E672C400E0BE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3313554321E672C600E0BE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3313554E21E672C700E0BE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3313552921E672C400E0BE57 = {
+			isa = PBXGroup;
+			children = (
+				3313553421E672C400E0BE57 /* Christmas Dinner */,
+				3313554921E672C600E0BE57 /* Christmas DinnerTests */,
+				3313555421E672C700E0BE57 /* Christmas DinnerUITests */,
+				3313553321E672C400E0BE57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3313553321E672C400E0BE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3313553221E672C400E0BE57 /* Christmas Dinner.app */,
+				3313554621E672C600E0BE57 /* Christmas DinnerTests.xctest */,
+				3313555121E672C700E0BE57 /* Christmas DinnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3313553421E672C400E0BE57 /* Christmas Dinner */ = {
+			isa = PBXGroup;
+			children = (
+				3313553521E672C400E0BE57 /* AppDelegate.swift */,
+				3313553721E672C400E0BE57 /* ViewController.swift */,
+				3313553921E672C400E0BE57 /* Main.storyboard */,
+				3313553C21E672C600E0BE57 /* Assets.xcassets */,
+				3313553E21E672C600E0BE57 /* LaunchScreen.storyboard */,
+				3313554121E672C600E0BE57 /* Info.plist */,
+			);
+			path = "Christmas Dinner";
+			sourceTree = "<group>";
+		};
+		3313554921E672C600E0BE57 /* Christmas DinnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3313554A21E672C600E0BE57 /* Christmas_DinnerTests.swift */,
+				3313554C21E672C700E0BE57 /* Info.plist */,
+			);
+			path = "Christmas DinnerTests";
+			sourceTree = "<group>";
+		};
+		3313555421E672C700E0BE57 /* Christmas DinnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3313555521E672C700E0BE57 /* Christmas_DinnerUITests.swift */,
+				3313555721E672C700E0BE57 /* Info.plist */,
+			);
+			path = "Christmas DinnerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3313553121E672C400E0BE57 /* Christmas Dinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3313555A21E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas Dinner" */;
+			buildPhases = (
+				3313552E21E672C400E0BE57 /* Sources */,
+				3313552F21E672C400E0BE57 /* Frameworks */,
+				3313553021E672C400E0BE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Christmas Dinner";
+			productName = "Christmas Dinner";
+			productReference = 3313553221E672C400E0BE57 /* Christmas Dinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3313554521E672C600E0BE57 /* Christmas DinnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3313555D21E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas DinnerTests" */;
+			buildPhases = (
+				3313554221E672C600E0BE57 /* Sources */,
+				3313554321E672C600E0BE57 /* Frameworks */,
+				3313554421E672C600E0BE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3313554821E672C600E0BE57 /* PBXTargetDependency */,
+			);
+			name = "Christmas DinnerTests";
+			productName = "Christmas DinnerTests";
+			productReference = 3313554621E672C600E0BE57 /* Christmas DinnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3313555021E672C700E0BE57 /* Christmas DinnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3313556021E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas DinnerUITests" */;
+			buildPhases = (
+				3313554D21E672C700E0BE57 /* Sources */,
+				3313554E21E672C700E0BE57 /* Frameworks */,
+				3313554F21E672C700E0BE57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3313555321E672C700E0BE57 /* PBXTargetDependency */,
+			);
+			name = "Christmas DinnerUITests";
+			productName = "Christmas DinnerUITests";
+			productReference = 3313555121E672C700E0BE57 /* Christmas DinnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3313552A21E672C400E0BE57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "LUCAS PAJARES PRIETO";
+				TargetAttributes = {
+					3313553121E672C400E0BE57 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3313554521E672C600E0BE57 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3313553121E672C400E0BE57;
+					};
+					3313555021E672C700E0BE57 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3313553121E672C400E0BE57;
+					};
+				};
+			};
+			buildConfigurationList = 3313552D21E672C400E0BE57 /* Build configuration list for PBXProject "Christmas Dinner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3313552921E672C400E0BE57;
+			productRefGroup = 3313553321E672C400E0BE57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3313553121E672C400E0BE57 /* Christmas Dinner */,
+				3313554521E672C600E0BE57 /* Christmas DinnerTests */,
+				3313555021E672C700E0BE57 /* Christmas DinnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3313553021E672C400E0BE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3313554021E672C600E0BE57 /* LaunchScreen.storyboard in Resources */,
+				3313553D21E672C600E0BE57 /* Assets.xcassets in Resources */,
+				3313553B21E672C400E0BE57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3313554421E672C600E0BE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3313554F21E672C700E0BE57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3313552E21E672C400E0BE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3313553821E672C400E0BE57 /* ViewController.swift in Sources */,
+				3313553621E672C400E0BE57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3313554221E672C600E0BE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3313554B21E672C600E0BE57 /* Christmas_DinnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3313554D21E672C700E0BE57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3313555621E672C700E0BE57 /* Christmas_DinnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3313554821E672C600E0BE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3313553121E672C400E0BE57 /* Christmas Dinner */;
+			targetProxy = 3313554721E672C600E0BE57 /* PBXContainerItemProxy */;
+		};
+		3313555321E672C700E0BE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3313553121E672C400E0BE57 /* Christmas Dinner */;
+			targetProxy = 3313555221E672C700E0BE57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3313553921E672C400E0BE57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3313553A21E672C400E0BE57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3313553E21E672C600E0BE57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3313553F21E672C600E0BE57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3313555821E672C700E0BE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3313555921E672C700E0BE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3313555B21E672C700E0BE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Christmas Dinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-Dinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3313555C21E672C700E0BE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Christmas Dinner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-Dinner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3313555E21E672C700E0BE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Christmas DinnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-DinnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Dinner.app/Christmas Dinner";
+			};
+			name = Debug;
+		};
+		3313555F21E672C700E0BE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Christmas DinnerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-DinnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Christmas Dinner.app/Christmas Dinner";
+			};
+			name = Release;
+		};
+		3313556121E672C700E0BE57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Christmas DinnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-DinnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Christmas Dinner";
+			};
+			name = Debug;
+		};
+		3313556221E672C700E0BE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Christmas DinnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-DinnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Christmas Dinner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3313552D21E672C400E0BE57 /* Build configuration list for PBXProject "Christmas Dinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3313555821E672C700E0BE57 /* Debug */,
+				3313555921E672C700E0BE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3313555A21E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas Dinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3313555B21E672C700E0BE57 /* Debug */,
+				3313555C21E672C700E0BE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3313555D21E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas DinnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3313555E21E672C700E0BE57 /* Debug */,
+				3313555F21E672C700E0BE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3313556021E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas DinnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3313556121E672C700E0BE57 /* Debug */,
+				3313556221E672C700E0BE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3313552A21E672C400E0BE57 /* Project object */;
+}
