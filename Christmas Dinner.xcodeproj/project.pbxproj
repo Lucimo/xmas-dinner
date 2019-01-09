@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222B73071F2744D2ECA8C26E /* Pods_Christmas_DinnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56518924C3E965447A713635 /* Pods_Christmas_DinnerUITests.framework */; };
 		3313553621E672C400E0BE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313553521E672C400E0BE57 /* AppDelegate.swift */; };
 		3313553D21E672C600E0BE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3313553C21E672C600E0BE57 /* Assets.xcassets */; };
 		3313554021E672C600E0BE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3313553E21E672C600E0BE57 /* LaunchScreen.storyboard */; };
 		3313554B21E672C600E0BE57 /* Christmas_DinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313554A21E672C600E0BE57 /* Christmas_DinnerTests.swift */; };
 		3313555621E672C700E0BE57 /* Christmas_DinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313555521E672C700E0BE57 /* Christmas_DinnerUITests.swift */; };
-		3313556521E6755500E0BE57 /* Participante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313556421E6755500E0BE57 /* Participante.swift */; };
-		3313556821E6778400E0BE57 /* ParticipanteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313556721E6778400E0BE57 /* ParticipanteEntity.swift */; };
+		3313556521E6755500E0BE57 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313556421E6755500E0BE57 /* Participant.swift */; };
+		3313556821E6778400E0BE57 /* ParticipantEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313556721E6778400E0BE57 /* ParticipantEntity.swift */; };
+		3313556B21E67D0900E0BE57 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313556921E67D0900E0BE57 /* MainMenu.swift */; };
+		3313556C21E67D0900E0BE57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3313556A21E67D0900E0BE57 /* MainMenu.xib */; };
+		3313557221E67F5000E0BE57 /* ParticipantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313557021E67F5000E0BE57 /* ParticipantCell.swift */; };
+		3313557321E67F5000E0BE57 /* ParticipantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3313557121E67F5000E0BE57 /* ParticipantCell.xib */; };
+		3313557721E6817700E0BE57 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313557521E6817700E0BE57 /* Dialog.swift */; };
+		3313557821E6817700E0BE57 /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3313557621E6817700E0BE57 /* Dialog.xib */; };
+		95FC25752C3537FBCAB54CD5 /* Pods_Christmas_Dinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F21EA36E04C2A3FD76B10D /* Pods_Christmas_Dinner.framework */; };
+		A25D69A7B0D9FAAF111A6560 /* Pods_Christmas_DinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193736C8ED7C0E38E7899487 /* Pods_Christmas_DinnerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045EB7788DAECF868093429E /* Pods-Christmas DinnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas DinnerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas DinnerUITests/Pods-Christmas DinnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		193736C8ED7C0E38E7899487 /* Pods_Christmas_DinnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Christmas_DinnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7199FDB2708580C0259ED7 /* Pods-Christmas Dinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas Dinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas Dinner/Pods-Christmas Dinner.debug.xcconfig"; sourceTree = "<group>"; };
 		3313553221E672C400E0BE57 /* Christmas Dinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Dinner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3313553521E672C400E0BE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3313553C21E672C600E0BE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,8 +57,20 @@
 		3313555121E672C700E0BE57 /* Christmas DinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas DinnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3313555521E672C700E0BE57 /* Christmas_DinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_DinnerUITests.swift; sourceTree = "<group>"; };
 		3313555721E672C700E0BE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3313556421E6755500E0BE57 /* Participante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participante.swift; sourceTree = "<group>"; };
-		3313556721E6778400E0BE57 /* ParticipanteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipanteEntity.swift; sourceTree = "<group>"; };
+		3313556421E6755500E0BE57 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		3313556721E6778400E0BE57 /* ParticipantEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantEntity.swift; sourceTree = "<group>"; };
+		3313556921E67D0900E0BE57 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		3313556A21E67D0900E0BE57 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		3313557021E67F5000E0BE57 /* ParticipantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantCell.swift; sourceTree = "<group>"; };
+		3313557121E67F5000E0BE57 /* ParticipantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantCell.xib; sourceTree = "<group>"; };
+		3313557521E6817700E0BE57 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
+		3313557621E6817700E0BE57 /* Dialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
+		37E06F3048855AF2E9D46D0B /* Pods-Christmas DinnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas DinnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas DinnerTests/Pods-Christmas DinnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52A18DE0380C253DA6C92655 /* Pods-Christmas DinnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas DinnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas DinnerUITests/Pods-Christmas DinnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56518924C3E965447A713635 /* Pods_Christmas_DinnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Christmas_DinnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56B175F129385F8F7051438 /* Pods-Christmas DinnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas DinnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas DinnerTests/Pods-Christmas DinnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8EC3A7F3CE8CFA1B4FB688E /* Pods-Christmas Dinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas Dinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas Dinner/Pods-Christmas Dinner.release.xcconfig"; sourceTree = "<group>"; };
+		F6F21EA36E04C2A3FD76B10D /* Pods_Christmas_Dinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Christmas_Dinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FC25752C3537FBCAB54CD5 /* Pods_Christmas_Dinner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25D69A7B0D9FAAF111A6560 /* Pods_Christmas_DinnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222B73071F2744D2ECA8C26E /* Pods_Christmas_DinnerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				3313554921E672C600E0BE57 /* Christmas DinnerTests */,
 				3313555421E672C700E0BE57 /* Christmas DinnerUITests */,
 				3313553321E672C400E0BE57 /* Products */,
+				90691F987111CD08ABD89B7A /* Pods */,
+				66DC68AE7348B2DFC22BE79E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +126,8 @@
 		3313553421E672C400E0BE57 /* Christmas Dinner */ = {
 			isa = PBXGroup;
 			children = (
+				3313557421E6813200E0BE57 /* Dialog */,
+				3313556D21E67EF500E0BE57 /* Cells */,
 				3313556621E6772600E0BE57 /* MainMenu */,
 				3313556321E674FF00E0BE57 /* Participante */,
 				3313553521E672C400E0BE57 /* AppDelegate.swift */,
@@ -128,8 +159,8 @@
 		3313556321E674FF00E0BE57 /* Participante */ = {
 			isa = PBXGroup;
 			children = (
-				3313556421E6755500E0BE57 /* Participante.swift */,
-				3313556721E6778400E0BE57 /* ParticipanteEntity.swift */,
+				3313556421E6755500E0BE57 /* Participant.swift */,
+				3313556721E6778400E0BE57 /* ParticipantEntity.swift */,
 			);
 			path = Participante;
 			sourceTree = "<group>";
@@ -137,8 +168,51 @@
 		3313556621E6772600E0BE57 /* MainMenu */ = {
 			isa = PBXGroup;
 			children = (
+				3313556921E67D0900E0BE57 /* MainMenu.swift */,
+				3313556A21E67D0900E0BE57 /* MainMenu.xib */,
 			);
 			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		3313556D21E67EF500E0BE57 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3313557021E67F5000E0BE57 /* ParticipantCell.swift */,
+				3313557121E67F5000E0BE57 /* ParticipantCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3313557421E6813200E0BE57 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				3313557521E6817700E0BE57 /* Dialog.swift */,
+				3313557621E6817700E0BE57 /* Dialog.xib */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		66DC68AE7348B2DFC22BE79E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6F21EA36E04C2A3FD76B10D /* Pods_Christmas_Dinner.framework */,
+				193736C8ED7C0E38E7899487 /* Pods_Christmas_DinnerTests.framework */,
+				56518924C3E965447A713635 /* Pods_Christmas_DinnerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90691F987111CD08ABD89B7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A7199FDB2708580C0259ED7 /* Pods-Christmas Dinner.debug.xcconfig */,
+				D8EC3A7F3CE8CFA1B4FB688E /* Pods-Christmas Dinner.release.xcconfig */,
+				37E06F3048855AF2E9D46D0B /* Pods-Christmas DinnerTests.debug.xcconfig */,
+				B56B175F129385F8F7051438 /* Pods-Christmas DinnerTests.release.xcconfig */,
+				045EB7788DAECF868093429E /* Pods-Christmas DinnerUITests.debug.xcconfig */,
+				52A18DE0380C253DA6C92655 /* Pods-Christmas DinnerUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3313555A21E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas Dinner" */;
 			buildPhases = (
+				96FA103178E576CA0FE27FA4 /* [CP] Check Pods Manifest.lock */,
 				3313552E21E672C400E0BE57 /* Sources */,
 				3313552F21E672C400E0BE57 /* Frameworks */,
 				3313553021E672C400E0BE57 /* Resources */,
+				9E33E04CCCC5FF6946F8B591 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3313555D21E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas DinnerTests" */;
 			buildPhases = (
+				7E224B0612A866ED414847FF /* [CP] Check Pods Manifest.lock */,
 				3313554221E672C600E0BE57 /* Sources */,
 				3313554321E672C600E0BE57 /* Frameworks */,
 				3313554421E672C600E0BE57 /* Resources */,
@@ -183,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3313556021E672C700E0BE57 /* Build configuration list for PBXNativeTarget "Christmas DinnerUITests" */;
 			buildPhases = (
+				577369DB6BEE7C0C503DBEA7 /* [CP] Check Pods Manifest.lock */,
 				3313554D21E672C700E0BE57 /* Sources */,
 				3313554E21E672C700E0BE57 /* Frameworks */,
 				3313554F21E672C700E0BE57 /* Resources */,
@@ -246,7 +324,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3313554021E672C600E0BE57 /* LaunchScreen.storyboard in Resources */,
+				3313557321E67F5000E0BE57 /* ParticipantCell.xib in Resources */,
+				3313557821E6817700E0BE57 /* Dialog.xib in Resources */,
 				3313553D21E672C600E0BE57 /* Assets.xcassets in Resources */,
+				3313556C21E67D0900E0BE57 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,14 +347,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		577369DB6BEE7C0C503DBEA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Christmas DinnerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E224B0612A866ED414847FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Christmas DinnerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FA103178E576CA0FE27FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Christmas Dinner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E33E04CCCC5FF6946F8B591 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Christmas Dinner/Pods-Christmas Dinner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Christmas Dinner/Pods-Christmas Dinner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3313552E21E672C400E0BE57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3313553621E672C400E0BE57 /* AppDelegate.swift in Sources */,
-				3313556821E6778400E0BE57 /* ParticipanteEntity.swift in Sources */,
-				3313556521E6755500E0BE57 /* Participante.swift in Sources */,
+				3313556821E6778400E0BE57 /* ParticipantEntity.swift in Sources */,
+				3313556521E6755500E0BE57 /* Participant.swift in Sources */,
+				3313557721E6817700E0BE57 /* Dialog.swift in Sources */,
+				3313557221E67F5000E0BE57 /* ParticipantCell.swift in Sources */,
+				3313556B21E67D0900E0BE57 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +597,7 @@
 		};
 		3313555B21E672C700E0BE57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7199FDB2708580C0259ED7 /* Pods-Christmas Dinner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +615,7 @@
 		};
 		3313555C21E672C700E0BE57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8EC3A7F3CE8CFA1B4FB688E /* Pods-Christmas Dinner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +633,7 @@
 		};
 		3313555E21E672C700E0BE57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E06F3048855AF2E9D46D0B /* Pods-Christmas DinnerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +654,7 @@
 		};
 		3313555F21E672C700E0BE57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56B175F129385F8F7051438 /* Pods-Christmas DinnerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +675,7 @@
 		};
 		3313556121E672C700E0BE57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045EB7788DAECF868093429E /* Pods-Christmas DinnerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +695,7 @@
 		};
 		3313556221E672C700E0BE57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A18DE0380C253DA6C92655 /* Pods-Christmas DinnerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
