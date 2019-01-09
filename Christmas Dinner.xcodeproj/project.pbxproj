@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3313553621E672C400E0BE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313553521E672C400E0BE57 /* AppDelegate.swift */; };
-		3313553821E672C400E0BE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313553721E672C400E0BE57 /* ViewController.swift */; };
-		3313553B21E672C400E0BE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3313553921E672C400E0BE57 /* Main.storyboard */; };
 		3313553D21E672C600E0BE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3313553C21E672C600E0BE57 /* Assets.xcassets */; };
 		3313554021E672C600E0BE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3313553E21E672C600E0BE57 /* LaunchScreen.storyboard */; };
 		3313554B21E672C600E0BE57 /* Christmas_DinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313554A21E672C600E0BE57 /* Christmas_DinnerTests.swift */; };
 		3313555621E672C700E0BE57 /* Christmas_DinnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313555521E672C700E0BE57 /* Christmas_DinnerUITests.swift */; };
+		3313556521E6755500E0BE57 /* Participante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313556421E6755500E0BE57 /* Participante.swift */; };
+		3313556821E6778400E0BE57 /* ParticipanteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313556721E6778400E0BE57 /* ParticipanteEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* Begin PBXFileReference section */
 		3313553221E672C400E0BE57 /* Christmas Dinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christmas Dinner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3313553521E672C400E0BE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3313553721E672C400E0BE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3313553A21E672C400E0BE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3313553C21E672C600E0BE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3313553F21E672C600E0BE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3313554121E672C600E0BE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		3313555121E672C700E0BE57 /* Christmas DinnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Christmas DinnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3313555521E672C700E0BE57 /* Christmas_DinnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Christmas_DinnerUITests.swift; sourceTree = "<group>"; };
 		3313555721E672C700E0BE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3313556421E6755500E0BE57 /* Participante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participante.swift; sourceTree = "<group>"; };
+		3313556721E6778400E0BE57 /* ParticipanteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipanteEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,9 @@
 		3313553421E672C400E0BE57 /* Christmas Dinner */ = {
 			isa = PBXGroup;
 			children = (
+				3313556621E6772600E0BE57 /* MainMenu */,
+				3313556321E674FF00E0BE57 /* Participante */,
 				3313553521E672C400E0BE57 /* AppDelegate.swift */,
-				3313553721E672C400E0BE57 /* ViewController.swift */,
-				3313553921E672C400E0BE57 /* Main.storyboard */,
 				3313553C21E672C600E0BE57 /* Assets.xcassets */,
 				3313553E21E672C600E0BE57 /* LaunchScreen.storyboard */,
 				3313554121E672C600E0BE57 /* Info.plist */,
@@ -123,6 +123,22 @@
 				3313555721E672C700E0BE57 /* Info.plist */,
 			);
 			path = "Christmas DinnerUITests";
+			sourceTree = "<group>";
+		};
+		3313556321E674FF00E0BE57 /* Participante */ = {
+			isa = PBXGroup;
+			children = (
+				3313556421E6755500E0BE57 /* Participante.swift */,
+				3313556721E6778400E0BE57 /* ParticipanteEntity.swift */,
+			);
+			path = Participante;
+			sourceTree = "<group>";
+		};
+		3313556621E6772600E0BE57 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +247,6 @@
 			files = (
 				3313554021E672C600E0BE57 /* LaunchScreen.storyboard in Resources */,
 				3313553D21E672C600E0BE57 /* Assets.xcassets in Resources */,
-				3313553B21E672C400E0BE57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3313553821E672C400E0BE57 /* ViewController.swift in Sources */,
 				3313553621E672C400E0BE57 /* AppDelegate.swift in Sources */,
+				3313556821E6778400E0BE57 /* ParticipanteEntity.swift in Sources */,
+				3313556521E6755500E0BE57 /* Participante.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3313553921E672C400E0BE57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3313553A21E672C400E0BE57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3313553E21E672C600E0BE57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,7 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-Dinner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "lmao.Christmas-Dinner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
