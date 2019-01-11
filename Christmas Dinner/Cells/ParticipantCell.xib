@@ -26,21 +26,25 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWZ-3z-H1y">
-                        <rect key="frame" x="251" y="0.0" width="69" height="48"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eXi-50-KGN">
+                        <rect key="frame" x="348" y="48" width="48" height="40"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-ok-48" translatesAutoresizingMaskIntoConstraints="NO" id="ROh-Im-Kyu">
+                        <rect key="frame" x="266" y="0.0" width="54" height="48"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                 </subviews>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="morosidadLbl" destination="gWZ-3z-H1y" id="auD-cg-Z9v"/>
+                <outlet property="imgCell" destination="ROh-Im-Kyu" id="rfM-mZ-on7"/>
                 <outlet property="nameLbl" destination="7dv-eL-u4J" id="re7-zQ-FU8"/>
             </connections>
             <point key="canvasLocation" x="25" y="50"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="icons8-ok-48" width="48" height="48"/>
+    </resources>
 </document>

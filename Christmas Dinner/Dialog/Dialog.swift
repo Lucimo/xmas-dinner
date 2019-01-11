@@ -10,6 +10,7 @@ import UIKit
 
 protocol AddDialogDelegate : class {
     func addViewController(_ vc: Dialog, didEditParticipant participant: Participant)
+     func errorAddParticipantViewController(_ vc:Dialog)
 }
 class Dialog: UIViewController {
 
@@ -17,8 +18,25 @@ class Dialog: UIViewController {
     @IBOutlet weak var dialogMorosidadSwitch: UISwitch!
     @IBOutlet weak var dialogSendBtn: UIButton!
     @IBOutlet weak var cancelBtn: UIButton!
+     internal var participant: Participant!
+    
     var delegate: AddDialogDelegate?
      internal var repository: ParticipantRepository!
+    
+    
+    convenience init(participant: Participant?){
+        self.init()
+        if participant == nil {
+            self.participant = Participant()
+            self.participant.id = UUID().uuidString
+            self.participant.name = ""
+            self.participant.isMoroso = false
+            self.participant.date = Date()
+        }
+        else{
+            self.participant = participant
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,22 +52,18 @@ class Dialog: UIViewController {
     
     @IBAction func createParticipant(_ sender: Any) {
       
-            if (repository.get(name: dialogName.text!) != nil) ||
-                (dialogName.text?.elementsEqual(""))! {
-               
-            }else{
-                let participant = Participant()
-                participant.id = UUID().uuidString
-                participant.name = dialogName.text!
-                participant.isMoroso = false
-                participant.date = Date()
-             
-                    if self.repository.create(a: participant){
-                        self.delegate?.addViewController(self, didEditParticipant: participant)
-                    }
-                }
-            }
-    
+        if(repository.get(name: dialogName.text!) != nil) ||
+            (dialogName.text?.elementsEqual(""))!{
+            self.delegate?.errorAddParticipantViewController(self)
+        }
+        else{
+            self.dismiss(animated: true)
+            participant.name = dialogName.text
+            participant.isMoroso = dialogMorosidadSwitch.isOn
+            participant.date = Date()
+            delegate?.addViewController(self, didEditParticipant: participant)
+        }
+    }
     
     @IBAction func cancel(_ sender: Any) {
          self.dismiss(animated: true)

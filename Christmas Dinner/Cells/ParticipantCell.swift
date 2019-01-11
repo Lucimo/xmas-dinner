@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ParticipanteCell: UITableViewCell {
+class ParticipantCell: UITableViewCell {
 
    
     @IBOutlet weak var nameLbl: UILabel!
     
+    @IBOutlet weak var imgCell: UIImageView!
     
     
     @IBOutlet weak var morosidadLbl: UILabel!

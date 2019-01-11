@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 class ParticipantEntity: Object{
-   @objc dynamic var id = 0
+   @objc dynamic var id = ""
     @objc dynamic var name = ""
     @objc dynamic var isMoroso = false
     @objc dynamic var date = Date()
@@ -19,7 +19,7 @@ class ParticipantEntity: Object{
     }
     convenience init (participant : Participant){
         self.init()
-        self.id = participant.id
+        self.id = participant.id!
         self.name = participant.name
         self.date = participant.date
         self.isMoroso = participant.isMoroso
