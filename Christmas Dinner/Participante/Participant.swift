@@ -10,7 +10,7 @@ import Foundation
 class Participant{
     var name: String!
     var date: Date!
-    var id:Int!
+    var id:String!
     var isMoroso = false
   
 }

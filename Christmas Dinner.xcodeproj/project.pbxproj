@@ -21,6 +21,8 @@
 		3313557321E67F5000E0BE57 /* ParticipantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3313557121E67F5000E0BE57 /* ParticipantCell.xib */; };
 		3313557721E6817700E0BE57 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313557521E6817700E0BE57 /* Dialog.swift */; };
 		3313557821E6817700E0BE57 /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3313557621E6817700E0BE57 /* Dialog.xib */; };
+		338DEA5E21E8EA2600A74F77 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DEA5D21E8EA2600A74F77 /* Repository.swift */; };
+		338DEA6121E8EC8B00A74F77 /* ParticipantRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DEA6021E8EC8B00A74F77 /* ParticipantRepository.swift */; };
 		95FC25752C3537FBCAB54CD5 /* Pods_Christmas_Dinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F21EA36E04C2A3FD76B10D /* Pods_Christmas_Dinner.framework */; };
 		A25D69A7B0D9FAAF111A6560 /* Pods_Christmas_DinnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193736C8ED7C0E38E7899487 /* Pods_Christmas_DinnerTests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +67,8 @@
 		3313557121E67F5000E0BE57 /* ParticipantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantCell.xib; sourceTree = "<group>"; };
 		3313557521E6817700E0BE57 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
 		3313557621E6817700E0BE57 /* Dialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
+		338DEA5D21E8EA2600A74F77 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		338DEA6021E8EC8B00A74F77 /* ParticipantRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantRepository.swift; sourceTree = "<group>"; };
 		37E06F3048855AF2E9D46D0B /* Pods-Christmas DinnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas DinnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas DinnerTests/Pods-Christmas DinnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		52A18DE0380C253DA6C92655 /* Pods-Christmas DinnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Christmas DinnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Christmas DinnerUITests/Pods-Christmas DinnerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		56518924C3E965447A713635 /* Pods_Christmas_DinnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Christmas_DinnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,7 @@
 		3313553421E672C400E0BE57 /* Christmas Dinner */ = {
 			isa = PBXGroup;
 			children = (
+				338DEA5C21E8EA0100A74F77 /* Repository */,
 				3313557421E6813200E0BE57 /* Dialog */,
 				3313556D21E67EF500E0BE57 /* Cells */,
 				3313556621E6772600E0BE57 /* MainMenu */,
@@ -190,6 +195,15 @@
 				3313557621E6817700E0BE57 /* Dialog.xib */,
 			);
 			path = Dialog;
+			sourceTree = "<group>";
+		};
+		338DEA5C21E8EA0100A74F77 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				338DEA5D21E8EA2600A74F77 /* Repository.swift */,
+				338DEA6021E8EC8B00A74F77 /* ParticipantRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		66DC68AE7348B2DFC22BE79E /* Frameworks */ = {
@@ -429,10 +443,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338DEA5E21E8EA2600A74F77 /* Repository.swift in Sources */,
 				3313553621E672C400E0BE57 /* AppDelegate.swift in Sources */,
 				3313556821E6778400E0BE57 /* ParticipantEntity.swift in Sources */,
 				3313556521E6755500E0BE57 /* Participant.swift in Sources */,
 				3313557721E6817700E0BE57 /* Dialog.swift in Sources */,
+				338DEA6121E8EC8B00A74F77 /* ParticipantRepository.swift in Sources */,
 				3313557221E67F5000E0BE57 /* ParticipantCell.swift in Sources */,
 				3313556B21E67D0900E0BE57 /* MainMenu.swift in Sources */,
 			);

@@ -17,15 +17,15 @@ class ParticipantEntity: Object{
     override static func primaryKey() -> String?{
         return "id"
     }
-    convenience init (task : Participant){
+    convenience init (participant : Participant){
         self.init()
-        self.id = task.id
-        self.name = task.name
-        self.date = task.date
-        self.isMoroso = task.isMoroso
+        self.id = participant.id
+        self.name = participant.name
+        self.date = participant.date
+        self.isMoroso = participant.isMoroso
     }
     
-    func taskModel() -> Participant{
+    func participantModel() -> Participant{
         let model = Participant()
         model.id = self.id
         model.date = self.date

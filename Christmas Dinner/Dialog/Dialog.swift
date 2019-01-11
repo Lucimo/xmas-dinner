@@ -8,8 +8,17 @@
 
 import UIKit
 
+protocol AddDialogDelegate : class {
+    func addViewController(_ vc: Dialog, didEditParticipant participant: Participant)
+}
 class Dialog: UIViewController {
 
+    @IBOutlet weak var dialogName: UITextField!
+    @IBOutlet weak var dialogMorosidadSwitch: UISwitch!
+    @IBOutlet weak var dialogSendBtn: UIButton!
+    @IBOutlet weak var cancelBtn: UIButton!
+    var delegate: AddDialogDelegate?
+     internal var repository: ParticipantRepository!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +31,29 @@ class Dialog: UIViewController {
     }
     
 
+    
+    @IBAction func createParticipant(_ sender: Any) {
+      
+            if (repository.get(name: dialogName.text!) != nil) ||
+                (dialogName.text?.elementsEqual(""))! {
+               
+            }else{
+                let participant = Participant()
+                participant.id = UUID().uuidString
+                participant.name = dialogName.text!
+                participant.isMoroso = false
+                participant.date = Date()
+             
+                    if self.repository.create(a: participant){
+                        self.delegate?.addViewController(self, didEditParticipant: participant)
+                    }
+                }
+            }
+    
+    
+    @IBAction func cancel(_ sender: Any) {
+         self.dismiss(animated: true)
+    }
     /*
     // MARK: - Navigation
 

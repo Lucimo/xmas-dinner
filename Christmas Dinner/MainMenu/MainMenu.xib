@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainMenu" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainMenu" customModule="Christmas_Dinner" customModuleProvider="target">
             <connections>
+                <outlet property="addBtn" destination="ifA-mK-AOy" id="HcS-a4-hnT"/>
+                <outlet property="mainMenuTableView" destination="hju-rf-mA8" id="Pf5-2e-Nef"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,8 +21,49 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hju-rf-mA8">
+                    <rect key="frame" x="0.0" y="83" width="375" height="584"/>
+                    <color key="backgroundColor" red="1" green="0.91322784797738565" blue="0.41326556239379353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="584" id="5lU-mg-B7a"/>
+                    </constraints>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifA-mK-AOy">
+                    <rect key="frame" x="276" y="20" width="99" height="63"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.011644906383057929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="ADD">
+                        <color key="titleShadowColor" red="0.93130551289999997" green="0.99954509459999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showDialog:" destination="-1" eventType="touchUpInside" id="RiW-Oj-m3q"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christmas Dinner Party" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Do-VY-Bhg">
+                    <rect key="frame" x="0.0" y="20" width="276" height="63"/>
+                    <color key="backgroundColor" red="0.040607032189943215" green="1" blue="0.097074818852325717" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6Do-VY-Bhg" firstAttribute="top" secondItem="ifA-mK-AOy" secondAttribute="top" id="Awt-u3-VjA"/>
+                <constraint firstItem="ifA-mK-AOy" firstAttribute="trailing" secondItem="hju-rf-mA8" secondAttribute="trailing" id="CPH-Nc-nw3"/>
+                <constraint firstItem="ifA-mK-AOy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="276" id="MuQ-lL-Pls"/>
+                <constraint firstItem="6Do-VY-Bhg" firstAttribute="leading" secondItem="hju-rf-mA8" secondAttribute="leading" id="Q79-W1-s4g"/>
+                <constraint firstAttribute="trailing" secondItem="hju-rf-mA8" secondAttribute="trailing" id="YO0-9e-62h"/>
+                <constraint firstItem="hju-rf-mA8" firstAttribute="top" secondItem="ifA-mK-AOy" secondAttribute="bottom" id="cmd-xV-hOe"/>
+                <constraint firstItem="6Do-VY-Bhg" firstAttribute="bottom" secondItem="ifA-mK-AOy" secondAttribute="bottom" id="fFn-lZ-Z6e"/>
+                <constraint firstItem="ifA-mK-AOy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="sZS-xh-fti"/>
+                <constraint firstItem="hju-rf-mA8" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="snh-VG-gdQ"/>
+                <constraint firstItem="hju-rf-mA8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wxf-L7-kSR"/>
+                <constraint firstItem="ifA-mK-AOy" firstAttribute="leading" secondItem="6Do-VY-Bhg" secondAttribute="trailing" id="yLc-Ke-mtr"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
         </view>
     </objects>
 </document>

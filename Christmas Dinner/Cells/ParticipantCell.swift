@@ -13,7 +13,7 @@ class ParticipanteCell: UITableViewCell {
    
     @IBOutlet weak var nameLbl: UILabel!
     
-    @IBOutlet weak var dateLbl: UILabel!
+    
     
     @IBOutlet weak var morosidadLbl: UILabel!
     override func awakeFromNib() {
